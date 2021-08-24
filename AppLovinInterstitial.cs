@@ -28,7 +28,7 @@ namespace Wowsome.Ads {
       Debug.Log("init applovin");
 
 #if !UNITY_EDITOR
-      AppLovin.SetSdkKey(Data.UnitId.Trim());
+      AppLovin.SetSdkKey(data.unitId.Trim());
       AppLovin.InitializeSdk();
 #endif
     }
